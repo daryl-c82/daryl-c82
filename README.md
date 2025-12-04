@@ -1,4 +1,5 @@
-# daryl-c8# 
+#daryl-c82
+
 Hi, I'm Daryl Chan
 Postgraduate business student learning software development, AI tooling, and cloud technologies while building digital solutions at **Journey Inspired** — a travel-tech initiative focused on health, education, and property tourism.
 
