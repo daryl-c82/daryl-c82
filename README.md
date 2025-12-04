@@ -37,7 +37,7 @@ Journey Inspired builds trusted, AI-enabled travel experiences with a focus on:
 Our goal is to deliver **personalized, holistic-access journeys** through digital-first solutions.
 
 ## 📫 Connect
-- Email: daryl.chan@journeyinspired.biz  
+- Email: daryl.chan@journeyinspiredgroup.com
 - GitHub: github.com/daryl-c82  
 
 Always learning. Always building.
