@@ -26,25 +26,36 @@ Code duplication (also known as code cloning) occurs when the same or similar co
 #### 2. **Use Functions and Modules**
 ```python
 # Bad - Duplicated code
-def process_user_data():
-    data = fetch_data()
-    cleaned = data.strip().lower()
-    return cleaned
+def validate_user_email(email):
+    if not email or '@' not in email:
+        raise ValueError("Invalid email")
+    email = email.strip().lower()
+    if len(email) < 5:
+        raise ValueError("Email too short")
+    return email
 
-def process_product_data():
-    data = fetch_data()
-    cleaned = data.strip().lower()
-    return cleaned
+def validate_contact_email(email):
+    if not email or '@' not in email:
+        raise ValueError("Invalid email")
+    email = email.strip().lower()
+    if len(email) < 5:
+        raise ValueError("Email too short")
+    return email
 
 # Good - Extracted common logic
-def clean_data(data):
-    return data.strip().lower()
+def validate_email(email):
+    if not email or '@' not in email:
+        raise ValueError("Invalid email")
+    email = email.strip().lower()
+    if len(email) < 5:
+        raise ValueError("Email too short")
+    return email
 
-def process_user_data():
-    return clean_data(fetch_data())
+def validate_user_email(email):
+    return validate_email(email)
 
-def process_product_data():
-    return clean_data(fetch_data())
+def validate_contact_email(email):
+    return validate_email(email)
 ```
 
 #### 3. **Use Configuration Over Code**
