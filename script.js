@@ -54,21 +54,56 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
     
-    // Navbar scroll effect
+    // Combined scroll handler for better performance
     const navbar = document.querySelector('.navbar');
-    let lastScroll = 0;
+    const sections = document.querySelectorAll('section[id]');
+    const hero = document.querySelector('.hero');
+    let ticking = false;
     
-    window.addEventListener('scroll', function() {
+    function handleScroll() {
         const currentScroll = window.pageYOffset;
+        const navbarHeight = navbar.offsetHeight;
         
+        // Navbar shadow effect
         if (currentScroll > 100) {
             navbar.style.boxShadow = '0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)';
         } else {
             navbar.style.boxShadow = '0 1px 2px 0 rgba(0, 0, 0, 0.05)';
         }
         
-        lastScroll = currentScroll;
-    });
+        // Active navigation link highlighting
+        let current = '';
+        sections.forEach(section => {
+            const sectionTop = section.offsetTop - navbarHeight - 100;
+            if (currentScroll >= sectionTop) {
+                current = section.getAttribute('id');
+            }
+        });
+        
+        navLinks.forEach(link => {
+            link.classList.remove('active');
+            if (link.getAttribute('href') === '#' + current) {
+                link.classList.add('active');
+            }
+        });
+        
+        // Parallax effect for hero section
+        if (hero) {
+            const rate = currentScroll * 0.5;
+            hero.style.transform = 'translate3d(0, ' + rate + 'px, 0)';
+        }
+        
+        ticking = false;
+    }
+    
+    function requestTick() {
+        if (!ticking) {
+            window.requestAnimationFrame(handleScroll);
+            ticking = true;
+        }
+    }
+    
+    window.addEventListener('scroll', requestTick);
     
     // Intersection Observer for scroll animations
     const observerOptions = {
@@ -94,49 +129,5 @@ document.addEventListener('DOMContentLoaded', function() {
         observer.observe(element);
     });
     
-    // Active navigation link highlighting
-    const sections = document.querySelectorAll('section[id]');
-    
-    window.addEventListener('scroll', function() {
-        let current = '';
-        const navbarHeight = navbar.offsetHeight;
-        
-        sections.forEach(section => {
-            const sectionTop = section.offsetTop - navbarHeight - 100;
-            const sectionHeight = section.offsetHeight;
-            
-            if (window.pageYOffset >= sectionTop) {
-                current = section.getAttribute('id');
-            }
-        });
-        
-        navLinks.forEach(link => {
-            link.classList.remove('active');
-            if (link.getAttribute('href') === '#' + current) {
-                link.classList.add('active');
-            }
-        });
-    });
-    
-    // Add loading animation to CTA button
-    const ctaButton = document.querySelector('.cta-button');
-    if (ctaButton) {
-        ctaButton.addEventListener('click', function(e) {
-            // The smooth scroll will handle the navigation
-        });
-    }
-    
-    // Parallax effect for hero section
-    const hero = document.querySelector('.hero');
-    if (hero) {
-        window.addEventListener('scroll', function() {
-            const scrolled = window.pageYOffset;
-            const rate = scrolled * 0.5;
-            hero.style.transform = 'translate3d(0, ' + rate + 'px, 0)';
-        });
-    }
-    
-    // Console log for development
-    console.log('Journey Inspired website loaded successfully!');
-    console.log('Built with ❤️ for personalized travel experiences');
+
 });
