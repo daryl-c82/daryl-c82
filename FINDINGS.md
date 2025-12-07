@@ -35,8 +35,7 @@ The repository currently contains only a README.md file that serves as a profile
 **Files Present:**
 ```
 /
-├── README.md
-└── .git/
+└── README.md
 ```
 
 ### Code Duplication Assessment

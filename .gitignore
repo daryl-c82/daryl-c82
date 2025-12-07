@@ -47,8 +47,6 @@ build/
 *.swp
 *.swo
 *~
-.DS_Store
-
 # OS
 Thumbs.db
 .DS_Store
