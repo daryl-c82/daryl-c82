@@ -1,5 +1,4 @@
 # 👋 Hi, I'm Daryl Chan
-
 > Digital Transformation Strategist
 > AI Product Builder
 > Founder of Journey Inspired (J. Inspired)
