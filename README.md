@@ -1,44 +1,124 @@
-#daryl-c82
+# 👋 Hi, I'm Daryl Chan
 
-Hi, I'm Daryl Chan
-Postgraduate business student learning software development, AI tooling, and cloud technologies while building digital solutions at **Journey Inspired** — a travel-tech initiative focused on health, education, and property tourism.
+> Digital Transformation Strategist
+> AI Product Builder
+> Founder of Journey Inspired (J. Inspired)
 
-## 🔧 Current Focus Areas
-- Software development fundamentals  
-- AI-assisted engineering workflows  
-- Cloud-native architectures (AWS, GCP, Azure)  
-- API integrations and automation  
-- Version control and DevOps basics
+I design digital products, lead transformation initiatives and build AI-enabled platforms that solve practical business challenges.
 
-## 🏗️ What I’m Building
-- A digital travel concierge platform for multi-vertical tourism (health, education, property)  
-- Internal automation workflows to support product, operations, and data  
-- Prototypes for AI-driven recommendation and routing engines  
+Currently, I am building **Journey Inspired**, an AI-powered platform focused on health & wellness tourism, while pursuing an MBA to bridge academic research with real-world innovation.
 
-## 🎓 Learning & Upskilling
-I’m currently enrolled in postgraduate business studies, complementing my work in:
-- Digital transformation  
-- Product innovation  
-- Systems design  
-- Technology-driven service models
+---
 
-## 📚 Tools & Technologies
-- Git & GitHub  
-- Python, JavaScript (beginner)  
-- GitHub Copilot  
-- Docker & cloud platforms (learning)  
-- Data and automation tools  
+## Snapshot
 
-## 🌏 About Journey Inspired
-Journey Inspired builds trusted, AI-enabled travel experiences with a focus on:
-- Health & wellness travel  
-- Education travel  
-- Property discovery tourism  
+- 12+ years of enterprise experience
+- Founder of Journey Inspired
+- MBA Researcher
+- AI Product Builder
+- Based in Malaysia
 
-Our goal is to deliver **personalized, holistic-access journeys** through digital-first solutions.
+---
 
-## 📫 Connect
-- Email: daryl.chan@journeyinspired.group
-- GitHub: github.com/daryl-c82  
+## What I Bring
 
-Always learning. Always building.
+I combine enterprise project leadership, AI-enabled product development and business strategy to design practical digital solutions that create measurable value.
+
+My work bridges technology, governance and customer experience across multiple industries.
+
+---
+
+## Current Focus
+
+- 🚀 Building Journey Inspired Platform
+- 🤖 Designing AI-powered Products
+- 🏥 Advancing Health & Wellness Tourism
+- 🏢 Driving Enterprise Digital Transformation
+- 🎓 Conducting MBA Research
+
+---
+
+## Featured Projects
+| Project | Description | Status |
+|---------|-------------|--------|
+| Portfolio | Professional showcase | ✅ Active |
+| Journey Inspired | AI platform | 🚧 Development |
+| AI Projects | Experiments | 🚧 Active |
+| MBA Research | Research portfolio | ✍ Ongoing |
+
+---
+
+## Explore My Work
+
+📁 [Professional Portfolio](https://github.com/daryl-c82/portfolio)
+
+🚀 Journey Inspired *(Coming Soon)*
+
+🤖 AI Projects *(Coming Soon)*
+
+---
+
+## Technology
+
+**AI**
+
+OpenAI • Claude • MCP
+
+**Development**
+
+Next.js • React • TypeScript
+
+**Cloud**
+
+GitHub • Vercel • Supabase
+
+**Business**
+
+Digital Transformation • Product Strategy • PMO • Enterprise Architecture
+
+**Research**
+
+Qualitative Research
+
+Literature Review
+
+Health & Wellness Tourism
+
+---
+
+## Philosophy
+
+> Technology should solve meaningful problems and create sustainable value.
+
+---
+
+## Interests
+
+- Artificial Intelligence
+- Digital Transformation
+- Health & Wellness Tourism
+- Product Strategy
+- Knowledge Management
+- Platform Design
+
+---
+
+## Connect
+
+🌐 Portfolio
+
+💼 LinkedIn
+
+✉ Email
+
+🚀 Journey Inspired
+
+---
+
+Last Updated
+
+July 2026
+
+Currently Building
+
+Journey Inspired
